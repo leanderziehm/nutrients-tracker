@@ -1,0 +1,33 @@
+{
+  "food": {
+    "id": "food_1",
+    "barcode": "4316268639590",
+    "brand": "Beste Ernte",
+    "name": "Mischgemüse",
+    "description": "Mischung aus Erbsen, Karottenscheiben und Zuckermais",
+    "net_weight_g": 1000,
+    "state": "frozen" 
+  },
+  "ingredients": [
+    { "name": "Karotten", "percentage": 35 },
+    { "name": "Erbsen", "percentage": 35 },
+    { "name": "Mais", "percentage": 30 }
+  ],
+  "nutrition_per_100g": {
+    "energy_kj": 245,
+    "energy_kcal": 58,
+    "fat_g": 0.5,
+    "saturated_fat_g": 0.2,
+    "carbohydrates_g": 9.0,
+    "sugars_g": 3.8,
+    "fiber_g": 3.5,
+    "protein_g": 2.7,
+    "salt_g": 0.06
+  },
+  "consumption_log": [
+    {
+      "timestamp": "2026-09-13T12:30:00Z",
+      "amount_consumed_g": 250
+    }
+  ]
+}
